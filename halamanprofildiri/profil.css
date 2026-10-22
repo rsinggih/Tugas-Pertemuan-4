@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #334155;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#kotak-utama{
+    width: 420px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+}
+
+h1, h2{
+    color: #1e3a8a;
+    text-align: center;
+}
+
+h1{
+    font-size: 32px;
+    margin-top: 0;
+}
+
+h2{
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 2px solid #64748b;
+    padding-bottom: 5px;
+}
+
+.jurusan{
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info{
+    font-size: 14px;
+    color: #64748b;
+}
+
+.kotak p{
+    text-align: justify;
+}
+
+.keahlian{
+    list-style-type: none;
+    padding: 0;
+}
+
+.keahlian li{
+    display: inline-block;
+    margin: 4px 4px 4px 0;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: rgba(37, 99, 235, 0.15);
+    color: #1e3a8a;
+    border-radius: 20px;
+}
+
+.tombol{
+    display:inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
